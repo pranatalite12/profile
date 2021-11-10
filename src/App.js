@@ -147,7 +147,7 @@ function App() {
           <img
             className="w-32 mx-auto rounded-full -mt-20 border-8 border-white"
             src="https://avatars.githubusercontent.com/u/26412048?s=400&u=6957b620da8a0af177e33090a1f8d719c2fa5e92&v=4"
-            alt=""
+            alt="my-profile"
           />
           <div className="text-center mt-2 text-3xl font-medium">
             Giya Pranata
