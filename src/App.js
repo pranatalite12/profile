@@ -146,7 +146,7 @@ function App() {
         <div className="flex flex-col w-full my-24 bg-white shadow-xl hover:shadow">
           <img
             className="w-32 mx-auto rounded-full -mt-20 border-8 border-white"
-            src="https://avatars.githubusercontent.com/u/67946056?v=4"
+            src="https://avatars.githubusercontent.com/u/26412048?s=400&u=6957b620da8a0af177e33090a1f8d719c2fa5e92&v=4"
             alt=""
           />
           <div className="text-center mt-2 text-3xl font-medium">
@@ -255,10 +255,11 @@ function App() {
           </div>
           <h1 className="px-5 pt-5 text-left font-semibold text-lg">Project</h1>
           <div className="p-5 grid mb-5 grid-rows-2 gap-7 lg:grid-cols-3 xl:grid-cols-3">
-            <a class="bg-gray-50 border-yellow-300 dark:bg-gray-300 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-yellow-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500"
+            <a class="bg-yellow-300 shadow-boxbg border-yellow-300 dark:bg-gray-300 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-yellow-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500"
                onClick={() => {
                 window.open("https://www.asyst.co.id/our-products/category/chronus", "_blank");
               }}
+              
             >
               <img
                 class="w-16 h-16 object-cover rounded-full"
@@ -277,10 +278,11 @@ function App() {
                 </p>
               </div>
             </a>
-            <a class="bg-gray-50 border-blue-300 dark:bg-gray-300 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-blue-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500"
+            <a class="bg-blue-300 border-blue-300 dark:bg-gray-300 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-blue-400 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500"
                onClick={() => {
                 window.open("https://www.asyst.co.id/our-products/category/athena", "_blank");
               }}
+              style={{ boxShadow: "10px 10px 0px 0px #000" }}
             >
               <img
                 class="w-16 h-16 object-cover rounded-full"
@@ -299,10 +301,11 @@ function App() {
                 </p>
               </div>
             </a>
-            <a class="group bg-gray-50 border-black dark:bg-gray-300 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-gray-700 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500"
+            <a class="group bg-gray-800 border-gray-800 dark:bg-gray-300 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-gray-700 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500"
                onClick={() => {
                 window.open("https://play.google.com/store/apps/details?id=com.gbook.app", "_blank");
               }}
+              style={{ boxShadow: "10px 10px 0px 0px #000" }}
             >
               <img
                 class="w-16 h-16 object-cover rounded-full"
@@ -310,18 +313,19 @@ function App() {
                 alt=""
               />
               <div class="ml-3 flex flex-col justify-center">
-                <p class="text-gray-900 dark:text-gray-300 font-bold text-sm group-hover:text-white">
+                <p class="text-white dark:text-gray-300 font-bold text-sm group-hover:text-white">
                   Gbook
                 </p>
-                <p class="text-black dark:text-gray-100 text-justify text-xs group-hover:text-white">
+                <p class="text-white dark:text-gray-100 text-justify text-xs group-hover:text-white">
                   Personal Project
                 </p>
               </div>
             </a>
-            <a class="group bg-gray-50 border-yellow-300 dark:bg-gray-300 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-yellow-200 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500"
+            <a class="group bg-yellow-100 border-yellow-100 dark:bg-gray-300 bg-opacity-95 border-opacity-60 | p-4 border-solid rounded-3xl border-2 | flex justify-around cursor-pointer | hover:bg-yellow-200 dark:hover:bg-indigo-600 hover:border-transparent | transition-colors duration-500"
                onClick={() => {
                 window.open("https://lemoncode21.com/", "_blank");
               }}
+              style={{ boxShadow: "10px 10px 0px 0px #000" }}
             >
               <img
                 class="w-16 h-16 object-cover rounded-full"
